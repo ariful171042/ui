@@ -16,14 +16,28 @@
   background-color: #14805e;
 }
 
-.sports-img {
-    width: 10px;
-    height: 20px;
-    background-color: #ffdf1a; 
-    position: absolute;
-    background-image: url("./assets/img/icon-awcme1sport.svg");
-    background-repeat: no-repeat; 
+.slider-container {
+  overflow: hidden;
+}
+
+.slider {
+  display: none;
+  position: relative;
+}
+
+.slide-in-left {
+  animation: slideInLeft 0.5s ease-in-out forwards;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(100%);
   }
+  to {
+    transform: translateX(0);
+  }
+}
+
   
 
 #scroll-container {
