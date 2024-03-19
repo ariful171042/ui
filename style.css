@@ -1,0 +1,79 @@
+.nav {
+  position: absolute;
+}
+
+.c-p {
+  color: #111111;
+}
+.c-bp {
+  background-color: #111111;
+}
+
+.c-s {
+  color: #14805e;
+}
+.c-bs {
+  background-color: #14805e;
+}
+
+.sports-img {
+    width: 10px;
+    height: 20px;
+    background-color: #ffdf1a; 
+    position: absolute;
+    background-image: url("./assets/img/icon-awcme1sport.svg");
+    background-repeat: no-repeat; 
+  }
+  
+
+#scroll-container {
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#scroll-text {
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+
+  -moz-animation: my-animation 1s linear infinite;
+  -webkit-animation: my-animation 1s linear infinite;
+  animation: my-animation 5s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+  }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from {
+    -webkit-transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
