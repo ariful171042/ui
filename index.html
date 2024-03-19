@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>ui</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -40,35 +41,35 @@
       <section class="px-5">
         <div class="flex gap-5 overflow-x-auto items-center">
           <div class="flex flex-col items-center py-2">
-            <img src="./assets/img/icon-sport.png" alt="" />
+            <img src="./assets/img/icon-sport.png" alt="" class="w-[40px]"/>
             <h3 class="text-white">Sports</h3>
           </div>
           <div class="flex flex-col items-center py-2">
-            <img src="./assets/img/icon-casino.png" alt="" />
+            <img src="./assets/img/icon-casino.png" alt="" class="w-[40px]"/>
             <h3 class="text-white">Casino</h3>
           </div>
           <div class="flex flex-col items-center py-2">
-            <img src="./assets/img/icon-slot.png" alt="" />
+            <img src="./assets/img/icon-slot.png" alt="" class="w-[40px]"/>
             <h3 class="text-white">Slots</h3>
           </div>
           <div class="flex flex-col items-center py-2">
-            <img src="./assets/img/icon-table.png" alt="" />
+            <img src="./assets/img/icon-table.png" alt="" class="w-[42px]"/>
             <h3 class="text-white">Table</h3>
           </div>
           <div class="flex flex-col items-center py-2">
-            <img src="./assets/img/icon-crash.png" alt="" />
+            <img src="./assets/img/icon-crash.png" alt="" class="w-[40px]"/>
             <h3 class="text-white">Crash</h3>
           </div>
           <div class="flex flex-col items-center py-2">
-            <img src="./assets/img/icon-fish.png" alt="" />
+            <img src="./assets/img/icon-fish.png" alt="" class="w-[40px]"/>
             <h3 class="text-white">Fishing</h3>
           </div>
           <div class="flex flex-col items-center py-2">
-            <img src="./assets/img/icon-arcade.png" alt="" />
+            <img src="./assets/img/icon-arcade.png" alt="" class="w-[40px]"/>
             <h3 class="text-white">Arcade</h3>
           </div>
           <div class="flex flex-col items-center py-2">
-            <img src="./assets/img/icon-lottery.png" alt="" />
+            <img src="./assets/img/icon-lottery.png" alt="" class="w-[40px]"/>
             <h3 class="text-white">Lottery</h3>
           </div>
         </div>
@@ -346,15 +347,26 @@
     </main>
 
     <!-- Navigation -->
-    <div class="fixed top-0 left-0 right-0 c-bp px-5 py-2 flex justify-between">
+    <div class="fixed top-0 left-0 right-0 c-bp px-5 py-2 flex justify-between items-center">
       <div class="c-s text-2xl">
         <button class="handlenavopen cursor-pointer">
           <ion-icon name="options-outline"></ion-icon>
         </button>
       </div>
-      <div class="c-s text-2xl">logo</div>
       <div class="c-s text-2xl">
-        <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+        <div class="w-32">
+          <img src="./assets/img/logo (1).png" alt="">
+        </div>
+      </div>
+      <div class="c-s text-2xl">
+        <div class="">
+          <a href="">
+            <ion-icon name="cloud-download-sharp"></ion-icon>
+          </a>
+          <a href="">
+            <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+          </a>
+        </div>
       </div>
     </div>
 
